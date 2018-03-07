@@ -15,15 +15,13 @@ cp .Xresources $HOME/
 
 # install vim plugins
 vim +PluginInstall +qall
-
-
 ```
 
 **used packages**
 
 ```
+xorg-xrandr xorg-xgamma
+feh
 i3-gaps-git i3blocks-gaps-git
 vim vundle-git
-
-
 ```
