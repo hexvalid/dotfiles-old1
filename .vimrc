@@ -2,6 +2,9 @@ set nocompatible
 set backspace=indent,eol,start
 set history=50
 set ruler
+set hlsearch
+set ignorecase
+set smartcase
 syntax on
 filetype off
 call vundle#begin()
