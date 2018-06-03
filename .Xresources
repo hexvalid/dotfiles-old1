@@ -1,33 +1,35 @@
-
-! urxvt
-urxvt.font:			xft:MonacoB2:size=14	
+URxvt.font:			xft:IBM Plex Mono Medium:size=13
+URxvt.boldFont:			xft:IBM Plex Mono:Bold:size=13
+URxvt.allow_bold:		true
 urxvt.internalBorder:		8
-urxvt.letterSpace: 		0
-urxvt.scrollBar:		false
-urxvt.saveLines:		1024
-urxvt.keysym.Control-Up:	\033[1;5A
-urxvt.keysym.Control-Down:	\033[1;5B
-urxvt.keysym.Control-Left:	\033[1;5D
-urxvt.keysym.Control-Right:	\033[1;5C
-urxvt.perl-ext:
-urxvt.perl-ext-common:
-
-! colors
-*.foreground:   	#ffffff
-*.background:   	#000000
-*.color0:       	#000000
-*.color1:       	#cc0403
-*.color2:       	#19cb00
-*.color3:       	#cecb00
-*.color4:       	#001cd1
-*.color5:       	#cb1ed1
-*.color6:       	#0dcdcd
-*.color7:       	#bababa
-*.color8:       	#909090
-*.color9:       	#dca3a3
-*.color10:      	#c3bf9f
-*.color11:      	#f0dfaf
-*.color12:      	#94bff3
-*.color13:      	#ec93d3
-*.color14:      	#93e0e3
-*.color15:      	#ffffff
+URxvt.letterSpace:		-1
+URxvt.cursorBlink:		true
+URxvt.scrollBar:		false
+URxvt.saveLines:		1024
+URxvt.iso14755:			False
+URxvt.iso14755_52:		false
+URxvt.perl-ext-common:		resize-font 
+URxvt.keysym.C-S-Down:		resize-font:smaller
+URxvt.keysym.C-S-Up:		resize-font:bigger
+URxvt.keysym.Control-Up:	\033[1;5A
+URxvt.keysym.Control-Down: 	\033[1;5B
+URxvt.keysym.Control-Left: 	\033[1;5D
+URxvt.keysym.Control-Right:	\033[1;5C
+*.foreground:			#E8DFD6
+*.background:			#021B21
+*.color0:			#032C36
+*.color1:			#C2454E
+*.color2:			#7CBF9E
+*.color3:			#8A7A63
+*.color4:			#2E3340
+*.color5:			#FF5879
+*.color6:			#44B5B1
+*.color7:			#F2F1B9
+*.color8:			#065F73
+*.color9:			#EF5847
+*.color10:			#A2D9B1
+*.color11:			#BEB090
+*.color12:			#61778D
+*.color13:			#FF99A1
+*.color14:			#9ED9D8
+*.color15:			#F6F6C9
